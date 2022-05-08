@@ -265,6 +265,7 @@ main-nvidianews-nvidia-com.iprsoftware.com
 
 
 #  PHILIPS HUE
+diag.meethue.com
 diagnostics.meethue.com
 mqtt.2030.ltsapis.goog
 
@@ -380,3 +381,6 @@ te.technical-service.net
 traffic.emsservice.de
 www.linkwithin.com
 zipservice.adalliance.io
+#
+voice-intent.prod.partner.netflix.net
+myqnapcloud.com
