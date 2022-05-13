@@ -272,7 +272,13 @@ mqtt.2030.ltsapis.goog
 
 
 #  QNAP
-analytics.api.myqnapcloud.com
+# Match found in https://v.firebog.net/hosts/static/w3kbl.txt:
+#myqnapcloud.com
+# Match found in https://v.firebog.net/hosts/static/w3kbl.txt:
+#analytics.api.myqnapcloud.com
+auth.api.myqnapcloud.com
+core2.api.myqnapcloud.com
+edge.api.myqnapcloud.com
 
 
 
