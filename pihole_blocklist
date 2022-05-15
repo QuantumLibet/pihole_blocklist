@@ -70,10 +70,14 @@ web.whatsapp.com
 
 
 #  Mozilla
-#  safe browsing
+#  'Application Update Service'; https://mozilla-balrog.readthedocs.io/en/latest/index.html
 #aus5.mozilla.org
 #  sponsored ads; https://github.com/mozilla-services/contile
 contile.services.mozilla.com
+#  check for signature updates
+#content-signature-2.cdn.mozilla.net
+#  fonts and hyphenation; https://wiki.mozilla.org/Mobile/Fennec/Android/Downloadable_Content
+#fennec-catalog-cdn.prod.mozaws.net
 #  studies, surveys; https://github.com/mozilla/normandy
 normandy-cdn.services.mozilla.com
 #  studies, surveys; https://github.com/mozilla/normandy
@@ -82,6 +86,20 @@ normandy.cdn.mozilla.net
 classify-client.services.mozilla.com
 #  newer version of normandy
 prod-classifyclient.normandy.prod.cloudops.mozgcp.net
+#  settings sync is not in use
+firefox.settings.services.mozilla.com
+#  settings sync is not in use
+firefox-settings-attachments.cdn.mozilla.net
+#  'Application Update Service'; https://mozilla-balrog.readthedocs.io/en/latest/index.html
+#prod.balrog.prod.cloudops.mozgcp.net
+#  tracking protection
+#shavar.prod.mozaws.net
+#  tracking protection
+#shavar.services.mozilla.com
+#  update check
+versioncheck-bg.addons.mozilla.org
+#  update check
+versioncheck.prod.mozaws.net
 
 
 
