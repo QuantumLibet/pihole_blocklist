@@ -43,6 +43,17 @@ star.c10r.facebook.com
 star-mini.c10r.facebook.com
 star-z-mini.c10r.facebook.com
 scontent-frt3-1.xx.fbcdn.net
+#  WhatsApp
+w1.web.whatsapp.com
+w2.web.whatsapp.com
+w3.web.whatsapp.com
+w4.web.whatsapp.com
+w5.web.whatsapp.com
+w6.web.whatsapp.com
+w7.web.whatsapp.com
+w8.web.whatsapp.com
+w9.web.whatsapp.com
+web.whatsapp.com
 
 
 
@@ -55,6 +66,22 @@ scontent-frt3-1.xx.fbcdn.net
 #www.google.com
 # Match found in https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt:
 #googleadapis.l.google.com
+
+
+
+#  Mozilla
+#  safe browsing
+#aus5.mozilla.org
+#  sponsored ads; https://github.com/mozilla-services/contile
+contile.services.mozilla.com
+#  studies, surveys; https://github.com/mozilla/normandy
+normandy-cdn.services.mozilla.com
+#  studies, surveys; https://github.com/mozilla/normandy
+normandy.cdn.mozilla.net
+#  newer version of normandy
+classify-client.services.mozilla.com
+#  newer version of normandy
+prod-classifyclient.normandy.prod.cloudops.mozgcp.net
 
 
 
@@ -100,12 +127,9 @@ ngfts.lge.com
 # Match found in https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt:
 #us.ad.lgsmartad.com
 ibis.lgappstv.com
-# Match found in https://adaway.org/hosts.txt:
-#us.ibs.lgappstv.com
-# Match found in https://adaway.org/hosts.txt:
-#us.lgtvsdp.com
-# Match found in https://adaway.org/hosts.txt:
-#us.rdx2.lgtvsdp.com
+us.ibs.lgappstv.com
+us.lgtvsdp.com
+us.rdx2.lgtvsdp.com
 #
 fm.nvc.araegy.nuancemobility.net
 fm.nvc.arasau.nuancemobility.net
@@ -149,12 +173,13 @@ fm.nvc.vievie.nuancemobility.net
 #
 #  Web Proxy AutoDiscovery
 #wpad.fritz.box
+#wpad.lan
 #
 #
 #  ‘Flighting’ Configuration – allows for feature light-up and experimentation
-#config.edge.skype.com
+config.edge.skype.com
 #config.teams.microsoft.com  #  necessary for OneDrive
-#tsfe.trafficshaping.dsp.mp.microsoft.com
+tsfe.trafficshaping.dsp.mp.microsoft.com
 #
 #
 #  Office Telemetry Endpoints
@@ -210,9 +235,17 @@ atmrun.net
 #  Microsoft Visual Studio; Source:  https://github.com/VSCodium/vscodium/blob/master/undo_telemetry.sh
 # Match found in https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt:
 #dc.services.visualstudio.com
-#
-# Match found in https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts:
-#*.measure.office.com
+#  Match found in https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&amp;showintro=0&amp;mimetype=plaintext:
+#measure.office.com
+#  Match found in https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts:
+#config.fp.measure.office.com
+#fp.measure.office.com
+#upload.fp.measure.office.com
+#upload2.fp.measure.office.com
+#  Match found in https://v.firebog.net/hosts/Easyprivacy.txt:
+#fp.measure.office.com
+
+
 
 #  NVIDIA
 blogs.nvidia.com
@@ -223,8 +256,7 @@ gridforums.nvidia.com
 images.nvidia.com
 images.nvidia.com.global.ogslb.com
 investor.nvidia.com
-# Match found in list.2.sysctl.org.domains:
-#nsomniture.nvidia.com
+nsomniture.nvidia.com
 ota.nvidia.com
 ota.nvidia.com.global.ogslb.com
 support.nvidia.com
@@ -241,8 +273,7 @@ events-dc1.gfe.nvidia.com
 services.gfe.nvidia.com
 services.gfe.nvidia.com.global.ogslb.com
 services-cdn.gfe.nvidia.com
-# Match found in https://v.firebog.net/hosts/static/w3kbl.txt:
-#telemetry-dce.gfe.nvidia.com
+telemetry-dce.gfe.nvidia.com
 #
 accounts.nvgs.nvidia.com
 login.nvgs.nvidia.com
@@ -261,6 +292,8 @@ main-nvidianews-nvidia-com.iprsoftware.com
 #
 # Match found in https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt:
 #nvidia.tt.omtrdc.net
+# Match found in https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt:
+#urano.nvidia.tt.omtrdc.net
 
 
 
@@ -268,14 +301,18 @@ main-nvidianews-nvidia-com.iprsoftware.com
 diag.meethue.com
 diagnostics.meethue.com
 mqtt.2030.ltsapis.goog
+marketing.meethue.com
+#  Match found in https://v.firebog.net/hosts/Easyprivacy.txt:
+#smetrics.marketing.meethue.com
+#  eigentlich noch im test
+data.meethue.com
 
 
 
 #  QNAP
-# Match found in https://v.firebog.net/hosts/static/w3kbl.txt:
-#myqnapcloud.com
-# Match found in https://v.firebog.net/hosts/static/w3kbl.txt:
-#analytics.api.myqnapcloud.com
+myqnapcloud.com
+analytics.api.myqnapcloud.com
+myqnapcloud.com
 auth.api.myqnapcloud.com
 core2.api.myqnapcloud.com
 edge.api.myqnapcloud.com
@@ -290,6 +327,8 @@ msmetrics-test.ws.sonos.com
 voiceconfig.ws.sonos.com
 sca-eu.ws.sonos.com
 lechmere-v1.sslauth.sonos.com
+#  Match found in https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&amp;showintro=0&amp;mimetype=plaintext:
+#click.email.sonos.com
 
 
 
@@ -313,21 +352,6 @@ www.baidu.com
 #pingma.qq.com
 #  Xiaomi camera sending data to AWS farm in Bejing
 awsbj9.fds.api.xiaomi.com
-
-
-
-
-#  WhatsApp
-w1.web.whatsapp.com
-w2.web.whatsapp.com
-w3.web.whatsapp.com
-w4.web.whatsapp.com
-w5.web.whatsapp.com
-w6.web.whatsapp.com
-w7.web.whatsapp.com
-w8.web.whatsapp.com
-w9.web.whatsapp.com
-web.whatsapp.com
 
 
 
@@ -366,8 +390,7 @@ v2.zopim.com
 # Match found in https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt:
 #peoplegraph.firstpartyapps.oaspapps.com
 m.qualifytring.com
-# Match found in https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt:
-#improving.duckduckgo.com
+improving.duckduckgo.com
 ws.audioscrobbler.com
 diagnostics.redditmedia.com
 #
@@ -389,4 +412,3 @@ www.linkwithin.com
 zipservice.adalliance.io
 #
 voice-intent.prod.partner.netflix.net
-myqnapcloud.com
