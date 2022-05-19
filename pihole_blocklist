@@ -322,8 +322,8 @@ mqtt.2030.ltsapis.goog
 marketing.meethue.com
 #  Match found in https://v.firebog.net/hosts/Easyprivacy.txt:
 #smetrics.marketing.meethue.com
-#  eigentlich noch im test
-data.meethue.com
+#  do not block this, otherwise Hue will try in 15-20sec intervals to reach it
+#data.meethue.com
 
 
 
