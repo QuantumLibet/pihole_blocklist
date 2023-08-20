@@ -1,0 +1,483 @@
+#  2023-04-06
+
+
+
+#  ADOBE
+#  Font Library
+# Match found in https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt:
+#p.typekit.net
+use.typekit.net
+
+
+
+#  AMAZON
+#
+msh.amazon.co.uk
+api.eu.amazonalexa.com
+
+
+
+#  APPLE
+#
+# Match found in https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt:
+#metrics.fe.apple-dns.net
+# Match found in https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt:
+#dzc-metrics.mzstatic.com
+# Match found in https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt:
+#feedbackws.icloud.com
+# Match found in https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt:
+#metrics.icloud.com
+# Match found in https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt:
+#messaging.metrics.icloud.com
+stats.gc.apple.com
+#
+#  iPhone crashs feedback
+iphonesubmissions.apple.com
+
+
+
+#  ebay
+apisd.ebay.com
+mobidcsng.ebay.com
+mobifts.ebay.com
+
+
+
+#  FACEBOOK
+#  should all be covered by other blocklists
+facebook.com
+facebook.net
+graph.facebook.com
+connect.facebook.net
+mqtt.c10r.facebook.com
+star.c10r.facebook.com
+star-mini.c10r.facebook.com
+star-z-mini.c10r.facebook.com
+scontent-frt3-1.xx.fbcdn.net
+#  WhatsApp
+w1.web.whatsapp.com
+w2.web.whatsapp.com
+w3.web.whatsapp.com
+w4.web.whatsapp.com
+w5.web.whatsapp.com
+w6.web.whatsapp.com
+w7.web.whatsapp.com
+w8.web.whatsapp.com
+w9.web.whatsapp.com
+web.whatsapp.com
+
+
+
+#  GOOGLE
+#  ** everything ** that is loaded from Google is tracked
+#  most of it is covered by other blocklists
+#
+#  will be called from LG TV
+#  necessary for www.google.com/recaptcha
+#www.google.com
+# Match found in https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt:
+#googleadapis.l.google.com
+
+
+
+#  Philips Hue
+firebaseremoteconfig.googleapis.com
+prod.huedatastore.com
+developers.meethue.com
+
+
+
+#  Mozilla
+#  'Application Update Service'; https://mozilla-balrog.readthedocs.io/en/latest/index.html
+#aus5.mozilla.org
+#  sponsored ads; https://github.com/mozilla-services/contile
+contile.services.mozilla.com
+#  check for signature updates
+#content-signature-2.cdn.mozilla.net
+#  fonts and hyphenation; https://wiki.mozilla.org/Mobile/Fennec/Android/Downloadable_Content
+#fennec-catalog-cdn.prod.mozaws.net
+#  studies, surveys; https://github.com/mozilla/normandy
+normandy-cdn.services.mozilla.com
+#  studies, surveys; https://github.com/mozilla/normandy
+normandy.cdn.mozilla.net
+#  newer version of normandy
+classify-client.services.mozilla.com
+#  newer version of normandy
+prod-classifyclient.normandy.prod.cloudops.mozgcp.net
+#  settings sync is not in use
+firefox.settings.services.mozilla.com
+#  settings sync is not in use
+firefox-settings-attachments.cdn.mozilla.net
+#  'Application Update Service'; https://mozilla-balrog.readthedocs.io/en/latest/index.html
+#prod.balrog.prod.cloudops.mozgcp.net
+#  tracking protection
+#shavar.prod.mozaws.net
+#  tracking protection
+#shavar.services.mozilla.com
+#  update check
+versioncheck-bg.addons.mozilla.org
+#  update check
+versioncheck.prod.mozaws.net
+
+
+
+#  LG SMART TV
+# Match found in https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt:
+#stats.hbbtv.smartclip.net
+# Match found in https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt:
+#scheduler.hbbtv.smartclip.net
+# Match found in https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt:
+#cdn.hbbtv.smartclip.net
+hbbtv-1.eurosport.com
+hbbtv-extern-fe01.sim-technik.de
+hbbtv-track.redbutton.de
+hbbtv.kabeleins.de
+hbbtv.prosieben.de
+hbbtv.qvc.de
+hbbtv.redbutton.de
+hbbtv.rtl2.de
+hbbtv.sat1.de
+hbbtv.sixx.de
+hbbtv.zdf.de
+hbbtv01p.anixe.net
+hbbtvapp.sonnenklar.tv
+redbutton.sim-technik.de
+redbutton-lb-prod.redbutton.de
+redbutton-adproxy-lb-prod.redbutton.de
+itv.ard.de
+start.digitaltext.rtl.de
+#
+api-tv.spotify.com
+#
+ad.lgappstv.com
+smartshare.lgtvsdp.com
+# Match found in https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt:
+#de.info.lgsmartad.com
+# Match found in https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt:
+#us.info.lgsmartad.com
+kr.lgtvsdp.com
+kr-lgtvsdp-com.aws-prd.net
+# Match found in https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt:
+#lgad.cjpowercast.com.edgesuite.net
+ngfts.lge.com
+# Match found in https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt:
+#us.ad.lgsmartad.com
+ibis.lgappstv.com
+us.ibs.lgappstv.com
+us.lgtvsdp.com
+us.rdx2.lgtvsdp.com
+#
+fm.nvc.araegy.nuancemobility.net
+fm.nvc.arasau.nuancemobility.net
+fm.nvc.arauae.nuancemobility.net
+fm.nvc.canhk.nuancemobility.net
+fm.nvc.chmn.nuancemobility.net
+fm.nvc.czecze.nuancemobility.net
+fm.nvc.dandan.nuancemobility.net
+fm.nvc.dede.nuancemobility.net
+fm.nvc.enau.nuancemobility.net
+fm.nvc.engb.nuancemobility.net
+fm.nvc.enus.nuancemobility.net
+fm.nvc.eses.nuancemobility.net
+fm.nvc.esus.nuancemobility.net
+fm.nvc.finfin.nuancemobility.net
+fm.nvc.frca.nuancemobility.net
+fm.nvc.frfr.nuancemobility.net
+fm.nvc.grkgrk.nuancemobility.net
+fm.nvc.heil.nuancemobility.net
+fm.nvc.indind.nuancemobility.net
+fm.nvc.itit.nuancemobility.net
+fm.nvc.jajp.nuancemobility.net
+fm.nvc.kokr.nuancemobility.net
+fm.nvc.malmal.nuancemobility.net
+fm.nvc.mntw.nuancemobility.net
+fm.nvc.nldnld.nuancemobility.net
+fm.nvc.nornor.nuancemobility.net
+fm.nvc.polpol.nuancemobility.net
+fm.nvc.porbra.nuancemobility.net
+fm.nvc.porpor.nuancemobility.net
+fm.nvc.rusrus.nuancemobility.net
+fm.nvc.sweswe.nuancemobility.net
+fm.nvc.thatha.nuancemobility.net
+fm.nvc.turtur.nuancemobility.net
+fm.nvc.ukua.nuancemobility.net
+fm.nvc.vievie.nuancemobility.net
+
+
+
+#  MICROSOFT
+#
+#  Web Proxy AutoDiscovery
+#wpad.fritz.box
+#wpad.lan
+#
+#
+#  Flighting Configuration - allows for feature light-up and experimentation
+config.edge.skype.com
+#config.teams.microsoft.com  #  necessary for OneDrive
+tsfe.trafficshaping.dsp.mp.microsoft.com
+#
+#
+#  Office Telemetry Endpoints
+# Match found in https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt:
+#browser.pipe.aria.microsoft.com
+# Match found in https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt:
+#mobile.pipe.aria.microsoft.com
+# Match found in https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt:
+#telemetry.microsoft.com
+clouddvlive-telemetry-westus.cloudapp.net
+teamsapcdntrs.azureedge.net
+prd.col.aria.mobile.skypedata.akadns.net
+#
+#  Office Rules Telemetry download
+# Match found in https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt:
+#nexusrules.officeapps.live.com
+#
+#  Office Send a Smile Service
+sas.office.microsoft.com
+#
+#
+#  Windows Telemetry Endpoints
+#  angeblich ist 'web.vortex.data.microsoft.com' ein 'Office Add-ins Service'
+#  vortex.data.microsoft.com ist allerdings definitiv ein telemetry endpoint
+# Match found in https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt:
+#vortex.data.microsoft.com
+# Match found in https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt:
+#v10.vortex-win.data.microsoft.com
+settings.data.microsoft.com
+settings-win.data.microsoft.com
+cortana.ai
+arc.msn.com
+#
+#
+#  Azure Traffic Manager Real User Monitoring (Tracking); Source:  https://josh.st/2018/07/12/footprint-dns/
+atmrun.net
+#
+#  part of ATMRUN
+#  Tracking; Source:  https://josh.st/2018/07/12/footprint-dns/
+# Match found in https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt:
+#footprintdns.com
+# Match found in https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt:
+#footprint.net
+# Match found in https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt:
+#clo.footprintdns.com
+#
+#
+#  Microsoft Remote Desktop et al
+# Match found in https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt:
+#dc.applicationinsights.microsoft.com
+#
+#
+#  Microsoft Visual Studio; Source:  https://github.com/VSCodium/vscodium/blob/master/undo_telemetry.sh
+# Match found in https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt:
+#dc.services.visualstudio.com
+#  Match found in https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&amp;showintro=0&amp;mimetype=plaintext:
+#measure.office.com
+#  Match found in https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts:
+#config.fp.measure.office.com
+#fp.measure.office.com
+#upload.fp.measure.office.com
+#upload2.fp.measure.office.com
+#  Match found in https://v.firebog.net/hosts/Easyprivacy.txt:
+#fp.measure.office.com
+
+
+
+#  NVIDIA
+blogs.nvidia.com
+careers.nvidia.com
+#developer.nvidia.com
+#developer.nvidia.com.global.ogslb.com
+gridforums.nvidia.com
+images.nvidia.com
+images.nvidia.com.global.ogslb.com
+investor.nvidia.com
+nsomniture.nvidia.com
+ota.nvidia.com
+ota.nvidia.com.global.ogslb.com
+support.nvidia.com
+# Match found in https://v.firebog.net/hosts/static/w3kbl.txt:
+#telemetry.nvidia.com
+#www.nvidia.com
+#www.nvidia.com.global.ogslb.com
+#
+gfe.nvidia.com
+download.gfe.nvidia.com
+download-dc1.gfe.nvidia.com
+events.gfe.nvidia.com
+events-dc1.gfe.nvidia.com
+services.gfe.nvidia.com
+services.gfe.nvidia.com.global.ogslb.com
+services-cdn.gfe.nvidia.com
+telemetry-dce.gfe.nvidia.com
+#
+accounts.nvgs.nvidia.com
+login.nvgs.nvidia.com
+#
+#uk.download.nvidia.com
+us.download.nvidia.com
+us.download.nvidia.com.global.ogslb.com
+#
+assets.nvidiagrid.net
+#
+nvidianews.nvidia.com
+nvidianews.iprsoftware.com
+nvidianews-nvidia-com-lb-936197626.us-east-1.elb.amazonaws.com
+aws-nvidianews-nvidia-com.iprsoftware.com
+main-nvidianews-nvidia-com.iprsoftware.com
+#
+# Match found in https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt:
+#nvidia.tt.omtrdc.net
+# Match found in https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt:
+#urano.nvidia.tt.omtrdc.net
+
+
+
+#  PHILIPS HUE
+diag.meethue.com
+diagnostics.meethue.com
+mqtt.2030.ltsapis.goog
+marketing.meethue.com
+#  Match found in https://v.firebog.net/hosts/Easyprivacy.txt:
+#smetrics.marketing.meethue.com
+#  do not block this, otherwise Hue will try in 15-20sec intervals to reach it
+#data.meethue.com
+
+
+
+#  QNAP
+myqnapcloud.com
+analytics.api.myqnapcloud.com
+myqnapcloud.com
+auth.api.myqnapcloud.com
+core2.api.myqnapcloud.com
+edge.api.myqnapcloud.com
+
+
+
+#  SONOS
+# Match found in https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt:
+#msmetrics.ws.sonos.com      # metrics that cannot be opted out
+msmetrics-test.ws.sonos.com
+# voice activation. feature not in use, so no need to access this endpoint
+voiceconfig.ws.sonos.com
+sca-eu.ws.sonos.com
+lechmere-v1.sslauth.sonos.com
+#  Match found in https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&amp;showintro=0&amp;mimetype=plaintext:
+#click.email.sonos.com
+
+
+
+#  XIAOMI CAM
+# Match found in https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt:
+#abtest.mistat.xiaomi.com
+# Match found in https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt:
+#adv.sec.miui.com
+# Match found in https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt:
+#data.sec.miui.com
+# Match found in https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt:
+#feedback.miui.com
+# Match found in https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt:
+#logupdate.avlyun.sec.miui.com
+# Match found in https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt:
+#mazu.sec.miui.com
+# Match found in https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt:
+#alogs.umeng.com
+www.baidu.com
+# Match found in https://adaway.org/hosts.txt:
+#pingma.qq.com
+#  Xiaomi camera sending data to AWS farm in Bejing
+awsbj9.fds.api.xiaomi.com
+
+
+
+#  PARALLELS Desktop
+#  Source: https://notabug.org/somebasj/ParallelsDesktopCrack
+#download.parallels.com
+#update.parallels.com
+#desktop.parallels.com
+#download.parallels.com.cdn.cloudflare.net
+#update.parallels.com.cdn.cloudflare.net
+#desktop.parallels.com.cdn.cloudflare.net
+www.parallels.cn
+#www.parallels.com
+www.parallels.de
+www.parallels.es
+www.parallels.fr
+www.parallels.nl
+www.parallels.pt
+www.parallels.ru
+www.parallelskorea.com
+reportus.parallels.com
+#parallels.com
+parallels.cn
+parallels.de
+parallels.es
+parallels.fr
+parallels.nl
+parallels.pt
+parallels.ru
+parallelskorea.com
+pax-manager.myparallels.com
+#myparallels.com
+#my.parallels.com
+
+
+
+#  OTHER
+#  Spiegel Magazin
+abo.spiegel.de
+gutenberg.spiegel.de
+gutscheine.spiegel.de
+schneeundmehr.spiegel.de
+sportal.spiegel.de
+sportwetten.spiegel.de
+tippspiel.spiegel.de
+tvprogramm.spiegel.de
+wetter.spiegel.de
+#
+spiegel2.zockstar.de
+spiegel.customer.gatrixx.com
+spiegel.media
+spiegel.schneeundmehr.de
+www.spiegelgruppe.de
+www.tagesspiegel.de
+www.tagesspiegel.de.edgekey.net
+pxc.spiegel.de.c.footprint.net
+#
+#
+#  other online ad stuff
+#  (mostly found by manually following "opt-out" links on sites)
+gravityrd.com
+# Match found in https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt:
+#addefend.com
+bitpoll.zeit.de
+plausiblelabs.com
+#  WinSIM mobile provider web; mother company Drillisch
+tracking.drillisch.de
+v2.zopim.com
+# Match found in https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt:
+#peoplegraph.firstpartyapps.oaspapps.com
+m.qualifytring.com
+improving.duckduckgo.com
+ws.audioscrobbler.com
+diagnostics.redditmedia.com
+#
+# Match found in https://v.firebog.net/hosts/AdguardDNS.txt:
+#metrics.happycolor.app
+#  important for HappyColor
+#zsou.eks-x-ir-prod.xfin.net
+#coloring-img-aws.x-flow.app
+#coloring-img-cf.x-flow.app
+#
+#  X-FLOW X-FLOW is an IT company founded in 2018 that develops and promotes mobile games for iOS and Android devices
+# Match found in https://v.firebog.net/hosts/AdguardDNS.txt:
+#cl-ad.x-flow.app
+cl-sync-status.x-flow.app
+sourcepoint.gizmodo.com
+te.technical-service.net
+traffic.emsservice.de
+www.linkwithin.com
+zipservice.adalliance.io
+#
+voice-intent.prod.partner.netflix.net
